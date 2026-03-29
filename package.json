@@ -1,0 +1,19 @@
+{
+  "name": "@vitalsdrive/supabase",
+  "version": "1.0.0",
+  "description": "Supabase Database - Schema, migrations, and seed data for VitalsDrive",
+  "private": true,
+  "scripts": {
+    "status": "supabase status",
+    "start": "supabase start",
+    "stop": "supabase stop",
+    "reset": "supabase db reset",
+    "push": "supabase db push",
+    "link": "supabase link --project-ref $(cat PROJECT_REF)",
+    "migrate": "supabase migration new",
+    "studio": "supabase studio"
+  },
+  "devDependencies": {
+    "supabase": "^1.145.0"
+  }
+}
